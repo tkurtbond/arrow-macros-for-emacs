@@ -75,8 +75,12 @@ Examples
 Todo
 ----
 
-Future versions *might* include further ideas from rplevy’s
-`swiss-arrows <https://github.com/rplevy/swiss-arrows>`__.
+• Future versions *might* include further ideas from rplevy’s
+  `swiss-arrows <https://github.com/rplevy/swiss-arrows>`__.
+
+• Look at https://github.com/eschulte/cl-arrowz - license?
+
+• Look at https://github.com/hipeta/arrow-macros for ideas.
 
 ..
    Local Variables:
