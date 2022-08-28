@@ -22,7 +22,7 @@ into the next, etc., before evaluation.  FORMS are treated as list designators."
 
 (defun diamond-inserter (insert-fun)
   (simple-inserter (lambda (acc next)
-                     (case (count-if #'<>p next)
+                     (cl-case (count-if #'<>p next)
                        (0 (funcall insert-fun acc next))
                        (1 (substitute-if acc #'<>p next))
                        (t (let ((r (gensym "R")))
