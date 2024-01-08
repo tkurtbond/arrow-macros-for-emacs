@@ -72,6 +72,19 @@ Examples
          /)                                         ; list designator
    => 1/3
 
+Install
+-------
+
+.. code:: emacs-lisp
+
+  (use-package arrows
+    :straight (:host github :repo "tkurtbond/arrow-macros-for-emacs" :files ("arrows.el"))
+    :ensure t)
+
+  (require 'arrows)
+
+..
+
 Todo
 ----
 

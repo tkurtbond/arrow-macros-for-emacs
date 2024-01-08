@@ -61,3 +61,5 @@ operator."
   "Inserts ARG into the list form SURROUND as its last argument."
   (append surround (list arg)))
 
+(provide 'arrows)
+;;; arrows.el ends here
